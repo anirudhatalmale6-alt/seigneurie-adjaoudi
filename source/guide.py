@@ -49,7 +49,7 @@ def schema_respiration():
     e.append('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" fill="none" '
              'stroke="#C51F2D" stroke-width="4"/>' % (x0, y0, x1 - x0, y1 - y0))
     e.append('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" fill="none" '
-             'stroke="#8A6A12" stroke-width="4" stroke-dasharray="18 14"/>'
+             'stroke="#6A4A0E" stroke-width="4" stroke-dasharray="18 14"/>'
              % (X0, Y0, X1 - X0, Y1 - Y0))
     mx, my = (x0 + x1) / 2.0, (y0 + y1) / 2.0
     mesures = ((X0, my, x0, my, (X0 + x0) / 2.0, my - 16),
@@ -224,13 +224,13 @@ def main():
              'contrast ratios. Antique Gold reaches %.2f:1 on ivory, which is '
              'below the 4.5:1 that body text needs — so gold is used on this '
              'site for rules, the sun and solid areas, and a darker gold '
-             '(<code>#8A6A12</code>, %.2f:1) is used where gold has to be '
-             'read as text.</p><div class="defile"><table class="tbl"><thead>'
+             '(<code>#6A4A0E</code>, %.2f:1 on ivory) is used wherever gold '
+             'has to be read as text.</p><div class="defile"><table class="tbl"><thead>'
              '<tr><th>Colour</th><th>Code</th><th>Usage</th>'
              '<th>On ivory</th><th>On crimson</th></tr></thead>'
              '<tbody>%s</tbody></table></div></div></section>'
              % (contraste("#D4A72C", "#F6F0E4"),
-                contraste("#8A6A12", "#F6F0E4"), "".join(lignes)))
+                contraste("#6A4A0E", "#F6F0E4"), "".join(lignes)))
 
     o.append('<section id="type" class="papier"><div class="wrap">'
              '<h2>Typography</h2><div class="grille g2">'

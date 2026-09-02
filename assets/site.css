@@ -43,9 +43,12 @@
   --cramoisi:#8F101C;
   --rouge:#C51F2D;
   --or:#D4A72C;
-  --or-fonce:#8A6A12;      /* l'or du guide ne passe pas AA sur ivoire :
-                              on garde l'or pour les filets et les aplats,
-                              et cette variante pour le texte. */
+  --or-fonce:#6A4A0E;      /* l'or du guide mesure 1,98:1 sur ivoire, tres
+                              en dessous du lisible : on le garde pour le
+                              soleil, les filets et les aplats, et on lit
+                              l'or dans cette variante-ci (7,12:1 sur
+                              ivoire). #8A6A12 avait ete essaye d'abord et
+                              mesure 4,46:1 — sous la barre. */
   --ivoire:#F6F0E4;
   --papier:#FFFCF6;
   --charbon:#201A1A;
@@ -225,7 +228,7 @@ section.serre{padding:40px 0}
    fichier, donc elle gagne. */
 p.att,span.att,li.att,.att{display:inline-flex; align-items:center; gap:8px;
   font-size:.72rem;
-  letter-spacing:.12em; text-transform:uppercase; color:#6A4A0E;
+  letter-spacing:.12em; text-transform:uppercase; color:var(--or-fonce);
   background:#FBF1D9; border:1px solid #E7CE93; border-radius:2px;
   padding:5px 10px; font-weight:600}
 .att::before{content:""; width:6px; height:6px; border-radius:50%;
@@ -270,7 +273,7 @@ p.att,span.att,li.att,.att{display:inline-flex; align-items:center; gap:8px;
 .form{background:var(--papier); border:1px solid var(--filet);
   border-radius:3px; padding:26px 24px}
 .form .maq{display:inline-block; font-size:.7rem; letter-spacing:.12em;
-  text-transform:uppercase; color:#6A4A0E; background:#FBF1D9;
+  text-transform:uppercase; color:var(--or-fonce); background:#FBF1D9;
   border:1px solid #E7CE93; padding:4px 9px; border-radius:2px;
   margin-bottom:16px; font-weight:600}
 .champ{margin:0 0 15px}

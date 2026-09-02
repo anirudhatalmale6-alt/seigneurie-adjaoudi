@@ -183,7 +183,9 @@ style :
 | Texte courant, charbon sur ivoire | **11,13:1** | 4,5:1 |
 | Texte courant, charbon sur papier | **12,34:1** | 4,5:1 |
 | Lien de navigation, cramoisi sur papier | **9,08:1** | 4,5:1 |
-| Pastille d'attente, or foncé | **7,89:1** | 4,5:1 |
+| Pastille d'attente, or foncé `#6A4A0E` | **7,89:1** sur papier, **7,12:1** sur ivoire | 4,5:1 |
+
+L'or du guide, `#D4A72C`, mesure **1,98:1** sur ivoire — très loin du lisible. Il est donc réservé au soleil, aux filets et aux aplats ; partout où de l'or doit être *lu*, c'est `#6A4A0E`. Un `#8A6A12` avait été essayé d'abord : 4,46:1, sous la barre de 4,5 — c'est le genre d'écart qu'on ne voit qu'en le calculant.
 
 ### Une suite verte ne prouve rien tant qu'on ne l'a pas fait échouer
 
