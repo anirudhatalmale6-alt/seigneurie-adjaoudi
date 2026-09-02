@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjaoudi Lordship — brand guidelines</title>
+<meta name="description" content="The Adjaoudi solar coat of arms: variants, palette, typography, clear space, minimum sizes and prohibited uses.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+ .plaque{background:#8F101C; padding:26px; border-radius:3px}
+ .puce{display:flex; gap:14px; align-items:center; margin:0 0 10px}
+ .puce i{width:44px; height:44px; border:1px solid var(--filet);
+   border-radius:2px; display:block; flex:0 0 auto}
+ .mini{display:flex; gap:26px; align-items:flex-end; flex-wrap:wrap}
+ .mini figure{margin:0; text-align:center}
+ figure.carte{text-align:center}
+ figure.carte figcaption{text-align:left}
+ .mini figcaption{font-size:.76rem; color:var(--gris); margin-top:8px}
+</style>
+</head>
+<body>
+<div class="bande"><div class="wrap">
+<p class="sur">Adjaoudi Lordship</p>
+<h1>Brand guidelines</h1>
+<p>The solar coat of arms, its variants and the rules that keep it one mark.
+Every figure on this page is measured on the artwork itself, not copied from
+a specification.</p>
+</div></div>
+<main>
+<section id="marks"><div class="wrap"><h2>The mark and its variants</h2><p class="chapo">Four approved versions. They come out of one geometry file, so they cannot drift apart.</p><div class="grille g2"><figure class="carte"><img src="blason-couleur.svg" alt="Full colour coat of arms" width="300" height="355"><figcaption><strong>Full colour</strong> — the primary version.</figcaption></figure><figure class="carte"><img src="blason-cramoisi.svg" alt="Monochrome crimson coat of arms" width="300" height="355"><figcaption><strong>Monochrome crimson</strong> — one ink, on ivory or white.</figcaption></figure><figure class="carte plaque"><img src="blason-ivoire.svg" alt="Monochrome ivory coat of arms" width="300" height="355"><figcaption style="color:#F4E6D8"><strong>Monochrome ivory</strong> — on crimson or charcoal.</figcaption></figure><figure class="carte"><img src="sceau.svg" alt="Seal: shield and sun only" width="200" height="323"><figcaption><strong>Seal</strong> — shield and sun only, for small sizes and stamps.</figcaption></figure></div></div></section>
+<section id="signature" class="papier"><div class="wrap"><h2>Signatures</h2><p class="chapo">The mark locked to the name. The lettering is converted to outlines, so a signature file needs no font installed to render correctly.</p><div class="grille g2"><figure class="carte"><img src="signature-en-verticale.svg" alt="Vertical signature, English" width="300" height="214"><figcaption>Vertical, English</figcaption></figure><figure class="carte"><img src="signature-fr-verticale.svg" alt="Vertical signature, French" width="300" height="199"><figcaption>Vertical, French</figcaption></figure><figure class="carte"><img src="signature-en-horizontale.svg" alt="Horizontal signature, English" width="440" height="140"><figcaption>Horizontal, English</figcaption></figure><figure class="carte"><img src="signature-fr-horizontale.svg" alt="Horizontal signature, French" width="440" height="132"><figcaption>Horizontal, French</figcaption></figure></div></div></section>
+<section id="palette"><div class="wrap"><h2>Palette</h2><p class="chapo">The two right-hand columns are measured contrast ratios. Antique Gold reaches 1.98:1 on ivory, which is below the 4.5:1 that body text needs — so gold is used on this site for rules, the sun and solid areas, and a darker gold (<code>#8A6A12</code>, 4.46:1) is used where gold has to be read as text.</p><div class="defile"><table class="tbl"><thead><tr><th>Colour</th><th>Code</th><th>Usage</th><th>On ivory</th><th>On crimson</th></tr></thead><tbody><tr><td><span class="puce"><i style="background:#8F101C"></i><strong>Cramoisi Adjaoudi</strong></span></td><td><code>#8F101C</code></td><td>Primary background, headings, coat of arms</td><td>8.19:1</td><td>1.00:1</td></tr><tr><td><span class="puce"><i style="background:#C51F2D"></i><strong>Radiant Red</strong></span></td><td><code>#C51F2D</code></td><td>Accents, buttons, active states</td><td>5.13:1</td><td>1.60:1</td></tr><tr><td><span class="puce"><i style="background:#D4A72C"></i><strong>Antique Gold</strong></span></td><td><code>#D4A72C</code></td><td>Sun, rules, premium details</td><td>1.98:1</td><td>4.15:1</td></tr><tr><td><span class="puce"><i style="background:#F6F0E4"></i><strong>Ivory</strong></span></td><td><code>#F6F0E4</code></td><td>Soft backgrounds, breathing space</td><td>1.00:1</td><td>8.19:1</td></tr><tr><td><span class="puce"><i style="background:#201A1A"></i><strong>Charcoal</strong></span></td><td><code>#201A1A</code></td><td>Body text, contrast</td><td>15.12:1</td><td>1.85:1</td></tr></tbody></table></div></div></section>
+<section id="type" class="papier"><div class="wrap"><h2>Typography</h2><div class="grille g2"><div class="carte"><h3 style="font-size:2.4rem">Cormorant Garamond</h3><p>Headings, semi-bold, restrained capitals. Variable weight 300–700. Embedded in the site as WOFF2 under the SIL Open Font License — no request leaves the page to fetch it.</p></div><div class="carte"><h3 style="font-family:var(--texte);font-size:2rem">Inter</h3><p>Interface and body text, regular to semi-bold. Variable weight 100–900, embedded the same way. Aptos remains the substitute for office documents, where no web font is available.</p></div></div></div></section>
+<section id="clearspace"><div class="wrap"><h2>Clear space and minimum sizes</h2><p class="chapo">Clear space is <strong>x = half the diameter of the sun as drawn</strong> = 198 units on an artwork whose drawn width is 739 units, that is <strong>27% of the width of the mark</strong> on every side. Below, the solid red rectangle is the drawn bounding box, measured from the rendered artwork; the dashed gold rectangle is the clear space.</p><figure class="carte"><img src="schema-respiration.svg" alt="Clear space diagram" width="560" height="652"></figure></div></section>
+<section id="minsize" class="papier"><div class="wrap"><h2>Minimum sizes</h2><p class="chapo">Shown at their true size on screen. Below these, the sun closes up and the laurel turns to mush.</p><div class="mini"><figure><img src="sceau.svg" alt="Seal at 48 pixels" width="30" height="48"><figcaption>Seal — 48&nbsp;px high</figcaption></figure><figure><img src="signature-en-horizontale.svg" alt="Horizontal signature at 140 pixels wide" width="140" height="45"><figcaption>Signature — 140&nbsp;px wide</figcaption></figure></div><p style="margin-top:22px">In print: <strong>15&nbsp;mm</strong> for the shield alone. Always keep the proportions, the contrast and the vertical orientation.</p></div></section>
+<section id="donts"><div class="wrap"><h2>Prohibited uses</h2><ul><li>Stretch or distort the mark.</li><li>Tilt or rotate it.</li><li>Recolour it outside the approved variants.</li><li>Add a drop shadow, a glow or an outline.</li><li>Place it on a busy photograph without an ivory or crimson plate.</li><li>Change the number of rays. There are sixteen, and there is no version with any other number.</li><li>Separate the sun from the shield.</li><li>Present the mark as a governmental, official or heraldic-authority symbol.</li></ul></div></section>
+<section id="claims" class="papier"><div class="wrap"><h2>What the emblem does not claim</h2><p>The coat of arms is a brand emblem, designed for this House. It is not claimed to be granted, matriculated, registered or recognised by any heraldic authority, and it represents no state, government or administration. It carries no title, rank or precedence. Before any trade-mark filing or commercial use, the name and the emblem should be reviewed by a lawyer in the country where the House chooses to operate — that review is the client’s to commission, and nothing on this page substitutes for it.</p></div></section>
+</main>
+<footer class="pied"><div class="wrap">
+<p class="decl">The Adjaoudi Lordship is a family and cultural identity. It is not a public authority, exercises no official function, and confers no title, rank, precedence or nobility. Neither the designation nor the coat of arms is claimed to be recognised, granted, registered or accredited by any authority whatsoever.</p>
+</div></footer>
+</body>
+</html>
